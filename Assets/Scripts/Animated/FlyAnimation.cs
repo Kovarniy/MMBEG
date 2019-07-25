@@ -28,7 +28,7 @@ public class FlyAnimation : MonoBehaviour
 
         // Задает изменение позиции из изначальной в Целевую со скоростью Время * скорость
         transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * speed);
-        print(transform.position);
+      //  print(transform.position);
 
         if (transform.position == target && target != from)
         {
