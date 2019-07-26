@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DialogScane.unity
     guid: d98a0f70b8304914380dd95e3ce4b054
+  - enabled: 1
+    path: Assets/Scenes/laboratory.unity
+    guid: 16aa03505e264c045a6841409881334c
   m_configObjects: {}
