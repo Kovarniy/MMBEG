@@ -5,38 +5,44 @@ using UnityEngine;
 
 public class Drag : MonoBehaviour//, IDragHandler, IEndDragHandler
 {
-   /* 
-    public void OnDrag(PointerEventData eventData)
+
+    public string objectName;
+    private int speedAnimated = 10;
+    private bool selected;
+    private Vector3 to;
+
+    private void Start()
     {
-        transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
-                        Input.mousePosition.y, 1));
+        float startX = transform.position.x;
+        float startY = transform.position.y;
+        to = new Vector3(startX, startY, 0);
     }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        throw new System.NotImplementedException();
-    }*/
-
-    private bool selected; 
 
     void Update()
     {
-        if(selected == true){
+        if (selected == true)
+        {
             Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             transform.position = new Vector2(cursorPos.x, cursorPos.y);
         }
-
-        if (Input.GetMouseButtonUp(0)){
-            selected = false;
+        if (selected == false)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, to, Time.deltaTime * speedAnimated);
         }
 
     }
+
 
     void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            selected = true; 
+            selected = true;
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            selected = false;
         }
     }
+
 }
