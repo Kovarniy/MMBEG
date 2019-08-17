@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ChangeModel : MonoBehaviour
 {
@@ -20,5 +21,10 @@ public class ChangeModel : MonoBehaviour
         string pathToImage = "Sprites/Characters/Hexie Kiss/" + actorSprite.objectName;
         Object gObject = Resources.Load<Sprite>(pathToImage);
         img.sprite = (Sprite)gObject;
+
+        if (actorSprite.objectName == "Hexie")
+        {
+            SceneManager.LoadScene("DialogAgentScane2");
+        }
     }
 }

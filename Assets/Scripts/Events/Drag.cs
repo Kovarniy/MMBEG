@@ -29,9 +29,7 @@ public class Drag : MonoBehaviour//, IDragHandler, IEndDragHandler
         {
             transform.position = Vector3.MoveTowards(transform.position, to, Time.deltaTime * speedAnimated);
         }
-
     }
-
 
     void OnMouseOver()
     {

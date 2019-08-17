@@ -585,6 +585,7 @@ GameObject:
   - component: {fileID: 251539520}
   - component: {fileID: 251539592}
   - component: {fileID: 251539593}
+  - component: {fileID: 251539594}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1843,14 +1844,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 198.72592
-    y: 137.9315
+    x: 202.13655
+    y: 127.990326
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 27
-  blockName: TwoScane
+  blockName: Bar
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -1894,6 +1895,7 @@ MonoBehaviour:
   - {fileID: 251539525}
   - {fileID: 251539524}
   - {fileID: 251539523}
+  - {fileID: 251539594}
 --- !u!114 &251539564
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2624,8 +2626,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 63.630142
-    y: 73
+    x: 62.630142
+    y: 72
     width: 120
     height: 40
   tint: {r: 0.31311396, g: 0.8018868, b: 0.27612138, a: 1}
@@ -2677,11 +2679,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 32.002274, y: -11.10997}
+  scrollPos: {x: -129.98691, y: -69.28235}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 404
-  zoom: 0.73000026
+  zoom: 0.8200001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2690,8 +2692,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 251539589}
-  selectedCommands:
-  - {fileID: 251539581}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2752,6 +2753,25 @@ MonoBehaviour:
   atTime: 0
   loop: 1
   fadeDuration: 1
+--- !u!114 &251539594
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251539519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 78
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: LaboratorianTutorial
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &280848650
 GameObject:
   m_ObjectHideFlags: 0

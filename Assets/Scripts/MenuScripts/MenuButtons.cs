@@ -45,12 +45,6 @@ public class MenuButtons : MonoBehaviour
 
     public void ShowPanel(GameObject panel)
     {
-        /*MyPanel.enabled = true;
-        TextPanel.enabled = true;
-        YesBtn.enabled = true;
-        YesBtnText.enabled = true;
-        NoBtn.enabled = true;
-        NoBtnText.enabled = true;*/
         panel.SetActive(true);
         if (panel == settingsMenu)
         {
@@ -60,15 +54,7 @@ public class MenuButtons : MonoBehaviour
 
     void ClosePanel(GameObject panel)
     {
-        /* MyPanel.enabled = false;
-         TextPanel.enabled = false;
-         YesBtn.enabled = false;
-         YesBtnText.enabled = false;
-         NoBtn.enabled = false;
-         NoBtnText.enabled = false;*/
-        panel.SetActive(false);
-      
-       
+        panel.SetActive(false);  
     }
 
     /*void OnMouseDown()
