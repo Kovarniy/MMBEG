@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FirstEpisode/DialogAgentScane2.unity
     guid: f423ac032734ce9489e281a523835d11
+  - enabled: 1
+    path: Assets/Scenes/Soultans/IntroductionSultansHistory.unity
+    guid: 8054e5a3c2a0fb64da00de5cb3f1c622
   m_configObjects: {}

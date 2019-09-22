@@ -21,10 +21,10 @@ public class TextGenerator : MonoBehaviour
 
     IEnumerator ChangeText()
     {
-        yield return new WaitForSeconds(7);
+        yield return new WaitForSeconds(6);
         labelText.GetComponent<Text>().text = "При каждой новой метаморфозе, вам будет доступно три варианта выбора. Один из них наиболее удачен, другой - " +
             "нейтрален и третий - совсем не подходит клиенту. Используйте свой опыт, чтобы не допускать ошибок и предложить лучший результат. ";
-        yield return new WaitForSeconds(7);
+        yield return new WaitForSeconds(6);
         labelText.GetComponent<Text>().text = "Это всего лишь тренировка, но в реальности, если вы ошибётесь более одного раза, то клиент " +
             "останется недоволен, и уровень придётся начинать повторно.";
         yield return new WaitForSeconds(4);
