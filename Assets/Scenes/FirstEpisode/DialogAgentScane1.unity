@@ -1588,7 +1588,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 545369392}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 6373d45b712bb4c44a4e2e68a03c8b9c, type: 3}
+  portrait: {fileID: 21300000, guid: ed978b19f836e0b4389fd9b4e6b23d71, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1046801360}
@@ -2390,7 +2390,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 545369392}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 6373d45b712bb4c44a4e2e68a03c8b9c, type: 3}
+  portrait: {fileID: 21300000, guid: ed978b19f836e0b4389fd9b4e6b23d71, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1046801360}
@@ -2693,7 +2693,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 251539563}
   selectedCommands:
-  - {fileID: 251539594}
+  - {fileID: 251539554}
   variables: []
   description: 
   stepPause: 0
@@ -2770,7 +2770,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: LaboratorianTutorial
+    stringVal: SpaceTravel
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!1 &280848650
@@ -3475,6 +3475,7 @@ MonoBehaviour:
   portraits:
   - {fileID: 21300000, guid: 22c30413478f720498e794907028010d, type: 3}
   - {fileID: 21300000, guid: 6373d45b712bb4c44a4e2e68a03c8b9c, type: 3}
+  - {fileID: 21300000, guid: ed978b19f836e0b4389fd9b4e6b23d71, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
